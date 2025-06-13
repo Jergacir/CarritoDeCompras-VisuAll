@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <title>VisuAll</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/LogoV_500px.png" alt="Logo">
+        </div>
+        <div class="buscar">
+            <input type="text" id="barra_busqueda">
+            <button class="buscar__icono">
+                <i class="bi bi-search"></i>
+            </button>
+        </div>
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html" class="boton-menu"><i class="bi bi-house-door-fill"></i> Inicio</a></li>
+                <li><a href="#" class="boton-menu active"><i class="bi bi-bag-fill"></i>Productos</a></li>
+                <li><a href="carrito.html" class="boton-menu boton-carrito"><i class="bi bi-cart-fill"></i> Carrito
+                        <span id="numerito" class="numerito">0</span></a></li>
+                <li><button class="boton-menu">Usuario</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="wrapper">
+        <aside>
+            <!-- <div id="header" class="header-mobile">
+                <h1 class="logo">Categorías</h1>
+                <button class="open-menu" id="open-menu">
+                    <i class="bi bi-list"></i>
+                </button>
+            </div> -->
+            <div class="header">
+                <h3 class="aside-titulo">Categorías</h3>
+            </div>
+
+            <nav>
+                <ul class="menu-aside">
+                    <li>
+                        <button id="todos" class="boton-menu boton-categoria active-aside"><i
+                                class="bi bi-hand-index-thumb-fill"></i> Todos los productos</button>
+                    </li>
+                    <li>
+                        <button id="Lentes" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i>
+                            Lentes</button>
+                    </li>
+                    <li>
+                        <button id="Juegos" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i>
+                            Juegos</button>
+                    </li>
+                    <li>
+                        <button id="Relojes" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i>
+                            Relojes</button>
+                    </li>
+                </ul>
+            </nav>
+            <footer>
+                <p class="texto-footer">© 2025 - VisuAll</p>
+            </footer>
+        </aside>
+
+
+        <main>
+            <h2 class="titulo-principal" id="titulo-principal">Todos los productos</h2>
+            <div id="contenedor-productos" class="contenedor-productos">
+                <div class="producto">
+                    <img class="producto-imagen"
+                        src="https://econolentes.com.pe/cdn/shop/files/8053672030464_1.png?v=1719986649" alt="Lentes 1">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Lentes 01</h3>
+                        <p class="producto-precio">S/. 150</p>
+                        <button class="producto-agregar">Agregar a Carrito</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="https://angler.com.pe/wp-content/uploads/2024/01/4.png"
+                        alt="Lentes 2">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Lentes 02</h3>
+                        <p class="producto-precio">S/. 150</p>
+                        <button class="producto-agregar">Agregar a Carrito</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen"
+                        src="https://www.visioncenter.com.pe/cdn/shop/files/8053672357943_1_512x512.png?v=1724738826"
+                        alt="Lentes 3">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Lentes 03</h3>
+                        <p class="producto-precio">S/. 150</p>
+                        <button class="producto-agregar">Agregar a Carrito</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen"
+                        src="https://chillibeans.bo/cdn/shop/products/LV.MT.0696-0407_1024x.png?v=1699542341"
+                        alt="Lentes 4">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Lentes 04</h3>
+                        <p class="producto-precio">S/. 150</p>
+                        <button class="producto-agregar">Agregar a Carrito</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen"
+                        src="https://econolentes.com.pe/cdn/shop/files/8053672030464_1.png?v=1719986649" alt="Lentes 1">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Lentes 01</h3>
+                        <p class="producto-precio">S/. 150</p>
+                        <button class="producto-agregar">Agregar a Carrito</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="https://angler.com.pe/wp-content/uploads/2024/01/4.png"
+                        alt="Lentes 2">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Lentes 02</h3>
+                        <p class="producto-precio">S/. 150</p>
+                        <button class="producto-agregar">Agregar a Carrito</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen"
+                        src="https://www.visioncenter.com.pe/cdn/shop/files/8053672357943_1_512x512.png?v=1724738826"
+                        alt="Lentes 3">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Lentes 03</h3>
+                        <p class="producto-precio">S/. 150</p>
+                        <button class="producto-agregar">Agregar a Carrito</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen"
+                        src="https://chillibeans.bo/cdn/shop/products/LV.MT.0696-0407_1024x.png?v=1699542341"
+                        alt="Lentes 4">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Lentes 04</h3>
+                        <p class="producto-precio">S/. 150</p>
+                        <button class="producto-agregar">Agregar a Carrito</button>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+    </div>
+
+
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>

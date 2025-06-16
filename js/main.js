@@ -103,7 +103,7 @@ const numerito = document.querySelector('#numerito');
 //Creando las funciones
 function cargarProductos(productosElegidos) {
 
-    contenedorProductos.innerHTML = '';
+    // contenedorProductos.innerHTML = '';
 
     productosElegidos.forEach(producto => {
         const div = document.createElement("div");

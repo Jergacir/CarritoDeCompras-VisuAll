@@ -5,9 +5,10 @@
     --color-white: #ececec;
     --color-gray: #e2e2e2;
     --color-red: #961818;
-    --color-yellow: #F4A725;
+    --color-yellow: #F5A623;
     --color-skyblue: #3D6D79;
     --color-skyblue-2: #5D918F;
+    --color-black: #2C2D2F;
 }
 
 *{
@@ -202,6 +203,7 @@ aside {
     color: var(--color-skyblue);
     border-radius: 1rem 0 0 1rem;
     position: relative;
+    transition: all .5s ease;
 }
 
 .boton-categoria.active-aside::before {
@@ -241,8 +243,6 @@ main{
     margin-top: 75px;
     border-radius: 1rem 0 0 1rem;
 }
-
-
 
 .titulo-principal{
     color: var(--color-yellow);
@@ -290,6 +290,28 @@ main{
 .producto-agregar:hover{
     background-color: var(--color-skyblue);
     color: var(--color-white);
+}
+
+.producto-cantidad{
+    display: flex;
+    align-items: center;
+    gap: .25rem;
+}
+
+.producto-cantidad-numero{
+    width: 15%;
+    background-color: transparent;
+    border: 0.5px solid #fff;
+    color: var(--color-white);
+    padding: 3px;
+}
+
+.producto-cantidad button{
+    padding: 5px;
+    width: 1.5rem;
+    height: 1.5rem;
+    border: 0.5px solid #fff;
+    border-radius: 0.5rem;
 }
 
 /*CARRITO*/

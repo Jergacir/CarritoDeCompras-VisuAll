@@ -7,13 +7,15 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
     <link rel="icon" href="img/Ojo500px.png" type="image/png">
-    <title>VisuAll</title>
+    <title>VisuAll | Productos</title>
 </head>
 
 <body>
     <header>
         <div class="logo">
-            <img src="img/LogoV_500px.png" alt="Logo">
+            <a href="home.html">
+                <img src="img/LogoV_500px.png" alt="Logo">
+            </a>
         </div>
         <div class="buscar">
             <input type="text" id="barra_busqueda">
@@ -23,8 +25,8 @@
         </div>
         <nav>
             <ul class="menu">
-                <li><a href="index.html" class="boton-menu"><i class="bi bi-house-door-fill"></i> Inicio</a></li>
-                <li><a href="#" class="boton-menu active"><i class="bi bi-bag-fill"></i>Productos</a></li>
+                <li><a href="home.html" class="boton-menu"><i class="bi bi-house-door-fill"></i> Inicio</a></li>
+                <li><a href="index.html" class="boton-menu active"><i class="bi bi-bag-fill"></i>Productos</a></li>
                 <li><a href="carrito.html" class="boton-menu boton-carrito"><i class="bi bi-cart-fill"></i> Carrito
                         <span id="numerito" class="numerito">0</span></a></li>
                 <li><button class="boton-menu">Usuario</button></li>
@@ -79,6 +81,12 @@
                     <div class="producto-detalles">
                         <h3 class="producto-titulo">Lentes 01</h3>
                         <p class="producto-precio">S/. 150</p>
+                        <div class="producto-cantidad">
+                            <p>Cantidad: </p>
+                            <button class="producto-mas">+</button>
+                            <input type="number" class="producto-cantidad-numero" value="1">
+                            <button class="producto-menos">-</button>
+                        </div>
                         <button class="producto-agregar">Agregar a Carrito</button>
                     </div>
                 </div>

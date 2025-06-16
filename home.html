@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="icon" href="img/Ojo500px.png" type="image/png">
+    <title>VisuAll | Home</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="home.html">
+                <img src="img/LogoV_500px.png" alt="Logo">
+            </a>
+        </div>
+        <div class="buscar">
+            <input type="text" id="barra_busqueda">
+            <button class="buscar__icono">
+                <i class="bi bi-search"></i>
+            </button>
+        </div>
+        <nav>
+            <ul class="menu">
+                <li><a href="home.html" class="boton-menu active"><i class="bi bi-house-door-fill"></i> Inicio</a></li>
+                <li><a href="index.html" class="boton-menu"><i class="bi bi-bag-fill"></i>Productos</a></li>
+                <li><a href="carrito.html" class="boton-menu boton-carrito"><i class="bi bi-cart-fill"></i>
+                        Carrito
+                        <span id="numerito" class="numerito">0</span></a></li>
+                <li><button class="boton-menu">Usuario</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="contenedor-slider swiper">
+            <div class="sliders swiper-wrapper">
+                <div class="slider swiper-slide">
+                    <img src="https://media.informabtl.com/wp-content/uploads/2018/09/kellogg-etiquetas-braille-.jpg"
+                        alt="">
+                    <div class="img-info">
+                        <span class="texto">Disfruta de unas ricas galletas</span>
+                        <h2>
+                            Disfruta de este sabor único <br>
+                            Galletas Braille
+                        </h2>
+                        <a href="index.html" class="button-slider">Comprar</a>
+                    </div>
+                </div>
+                <div class="slider swiper-slide">
+                    <img src="https://invdes.com.mx/wp-content/uploads/2019/11/21-11-19-baston.jpg" alt="">
+                    <div class="img-info">
+                        <span class="texto">Disfruta de unas ricas galletas</span>
+                        <h2>
+                            Disfruta de este sabor único <br>
+                            Galletas Braille
+                        </h2>
+                        <a href="index.html" class="button-slider">Comprar</a>
+                    </div>
+                </div>
+                <div class="slider swiper-slide">
+                    <img src="https://static.wixstatic.com/media/8067e0_971517ec1a1a41e8a49e0491ec7e04b1~mv2.jpg/v1/fill/w_1848,h_706,fp_0.34_0.17,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/8067e0_971517ec1a1a41e8a49e0491ec7e04b1~mv2.jpg"
+                        alt="">
+                    <div class="img-info">
+                        <span class="texto">VisuAll está contigo</span>
+                        <h2>
+                            TU INDEPENDENCIA EMPIEZA AQUÍ
+                        </h2>
+                        <a href="index.html" class="button-slider">BIENVENIDO A UN MUNDO ACCESIBLE</a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev btn-nav"></div>
+            <div class="swiper-button-next btn-nav"></div>
+        </div>
+        <div class="contenedor-productos-destacados">
+            <p class="productos-destacados-titulo subtitle">CATERGORÍAS DE PRODUCTOS DESTACADOS</p>
+            <div class="contenedor-productos-destacados-interno contenedor">
+                <div class="productos-destacados swiper-wrapper">
+                    <!-- <button class="atras"><i class="bi bi-arrow-left-short"></i></button> -->
+                    <div class="producto-destacado swiper-slide">
+                        <div class="producto-destacado-img image">
+                            <img src="https://static.wixstatic.com/media/8067e0_3094c64a81a24b2dae070833cbff7f6b~mv2.png/v1/fill/w_540,h_438,al_c,lg_1,q_85,enc_avif,quality_auto/8067e0_3094c64a81a24b2dae070833cbff7f6b~mv2.png"
+                                alt="">
+                        </div>
+                        <button class="producto-destacado-boton">Más información</button>
+                    </div>
+                    <div class="producto-destacado swiper-slide">
+                        <div class="producto-destacado-img image">
+                            <img src="https://static.wixstatic.com/media/8067e0_6391b0756540434d9a6b62315f9d101b~mv2.png/v1/fill/w_938,h_700,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/8067e0_6391b0756540434d9a6b62315f9d101b~mv2.png"
+                                alt="">
+                        </div>
+                        <button class="producto-destacado-boton">Más información</button>
+                    </div>
+                    <div class="producto-destacado swiper-slide">
+                        <div class="producto-destacado-img image">
+                            <img src="https://static.wixstatic.com/media/8067e0_588a2993e96a48cba753e0f47e3dfc93~mv2.png/v1/fill/w_522,h_390,al_c,lg_1,q_85,enc_avif,quality_auto/8067e0_588a2993e96a48cba753e0f47e3dfc93~mv2.png"
+                                alt="">
+                        </div>
+                        <button class="producto-destacado-boton">Más información</button>
+                    </div>
+                    <div class="producto-destacado swiper-slide">
+                        <div class="producto-destacado-img image">
+                            <img src="https://static.wixstatic.com/media/8067e0_2f2f5b156edd4b0997c112dfc9ede946~mv2.png/v1/fill/w_863,h_700,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/8067e0_2f2f5b156edd4b0997c112dfc9ede946~mv2.png"
+                                alt="">
+                        </div>
+                        <button class="producto-destacado-boton">Más información</button>
+                    </div>
+                    <!-- <button class="siguiente"><i class="bi bi-arrow-right-short"></i></button> -->
+                </div>
+                <div class="swiper-pagination"></div>
+
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev btn-nav"></div>
+                <div class="swiper-button-next btn-nav"></div>
+            </div>
+
+        </div>
+
+        <div class="contenedor-servicios-destacados">
+            <p class="servicios-destacados-titulo subtitle">SERVICIOS PREMIUM DE INCLUSIVIDAD</p>
+            <div class="servicios-destacados contenedor">
+                <div class="servicio-destacado">
+                    <img src="" alt="">
+                    <button class="servicio-destacado-boton">Más información</button>
+                </div>
+                <div class="servicio-destacado">
+                    <img src="" alt="">
+                    <button class="servicio-destacado-boton">Más información</button>
+                </div>
+                <div class="servicio-destacado">
+                    <img src="" alt="">
+                    <button class="servicio-destacado-boton">Más información</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="contenedor-paginas-interactivas">
+            <p class="paginas-interactivas-titulo subtitle">PRUEBA ESTAS PÁGINAS INTERACTIVAS</p>
+            <div class="paginas-interactivas contenedor">
+                <div class="pagina-interactiva">
+                    <img src="" alt="">
+                    <button class="pagina-interactiva-boton">IR</button>
+                </div>
+                <div class="pagina-interactiva">
+                    <img src="" alt="">
+                    <button class="pagina-interactiva-boton">IR</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p class="texto-footer">© 2025 - VisuAll</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/home.js"></script>
+</body>
+
+</html>

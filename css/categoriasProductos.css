@@ -1,0 +1,105 @@
+main {
+    border-radius: 0;
+    min-height: 83vh;
+    padding: 20px 80px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+/*CATEGORÍAS PRODUCTOS*/
+.atras {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 40px;
+}
+
+.atras-btn {
+    border: 0px;
+}
+
+.contenedor-categorias-titulo{
+    margin-bottom: 40px;
+}
+
+.contenedor-interno-categorias{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.categoria{
+    width: 346px;
+}
+
+#categoria-lentes .categoria-imagen{
+    background: url(../img/categoria-lentes.jpg);
+}
+
+#categoria-softwrare .categoria-imagen{
+    background: url(../img/categoria-software.jpg);
+}
+
+#categoria-bastones .categoria-imagen{
+    background: url(../img/categoria-bastones.jpg);
+}
+
+#categoria-libros .categoria-imagen{
+    background: url(../img/categoria-libros.jpg);
+}
+
+#categoria-juegos-mesa .categoria-imagen{
+    background: url(../img/categoria-juegos-mesa.jpg);
+}
+
+#categoria-lentes .categoria-imagen, 
+#categoria-softwrare .categoria-imagen, 
+#categoria-bastones .categoria-imagen,
+#categoria-libros .categoria-imagen,
+#categoria-juegos-mesa .categoria-imagen{
+    border: .5px solid #aaa;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .25);
+    overflow: hidden;
+    width: 100%;
+    height: 290px;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 20px;
+}
+
+.categoria-info{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    font-weight: 500;
+}
+
+
+.categoria-btn{
+    height: 31px;
+}
+
+.btn-ver{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: var(--color-yellow);
+    border-radius: 4px;
+    font-size: 15px;
+}
+
+.categoria-info-titulo{
+    text-align: center;
+    font-size: 24px;
+    font-weight: inherit;
+}
+
+

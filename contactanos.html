@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contactanos.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="icon" href="img/Ojo500px.png" type="image/png">
+    <title>VisuAll | Home</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="home.html">
+                <img src="img/LogoV_500px.png" alt="Logo">
+            </a>
+        </div>
+        <div class="buscar">
+            <input type="text" id="barra_busqueda">
+            <button class="buscar__icono">
+                <i class="bi bi-search"></i>
+            </button>
+        </div>
+        <nav>
+            <ul class="menu">
+                <li><a href="home.html" class="boton-menu"><i class="bi bi-house-door-fill"></i> Inicio</a></li>
+                <li><a href="categoriasProductos.html" class="boton-menu"><i class="bi bi-bag-fill"></i>Productos</a>
+                </li>
+                <li><a href="carrito.html" class="boton-menu boton-carrito"><i class="bi bi-cart-fill"></i>
+                        Carrito
+                        <span id="numerito" class="numerito">0</span>
+                    </a>
+                </li>
+                <li><a href="servicios.html" class="boton-menu"><i class="bi bi-bag-fill"></i>Servicios</a></li>
+                <li><a href="contactanos.html" class="boton-menu active"><i
+                            class="bi bi-telephone-fill"></i>Contáctanos</a>
+                </li>
+                <li><button class="boton-menu">Usuario</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <a href="home.html" class="atras">
+            <button class="atras-btn"><i class="bi bi-arrow-left"></i></button>
+            <p class="atras-text">Atrás</p>
+        </a>
+        <h1 class="contactanos-titulo">CONTÁCTANOS</h1>
+        <div class="banner"></div>
+        <section class="contenedor-contactanos">
+            <aside class="datos-contacto">
+                <div class="contenedor-telefonos-contacto contenedor-contacto">
+                    <div class="icono">
+                        <img src="img/icono-telefono.png" alt="icono telefono">
+                    </div>
+                    <div class="info-detalle">
+                        <h3 class="info-detalle-titulo">Teléfonos</h3>
+                        <div class="info-detalle-descripcion">
+                            <p>+51 922 019 762</p>
+                            <p>+51 965 291 143</p>
+                            <p>+51 969 918 840</p>
+                            <p>+51 919 442 261</p>
+                            <p>+51 932 688 274</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contenedor-correo-contacto contenedor-contacto">
+                    <div class="icono">
+                        <img src="img/icono-correo.png" alt="icono correo">
+                    </div>
+                    <div class="info-detalle">
+                        <h3 class="info-detalle-titulo">Correo Electrónico</h3>
+                        <div class="info-detalle-descripcion">
+                            <p>at.cliente@visuall.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contenedor-ubicacion contenedor-contacto">
+                    <div class="icono">
+                        <img src="img/icono-ubicacion.png" alt="icono ubicacion">
+                    </div>
+                    <div class="info-detalle">
+                        <h3 class="info-detalle-titulo">Ubícanos</h3>
+                        <div class="info-detalle-descripcion">
+                            <p>Dirección local físico</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contenedor-horarios contenedor-contacto">
+                    <div class="icono">
+                        <img src="img/icono-horarios.png" alt="icono horarios">
+                    </div>
+                    <div class="info-detalle">
+                        <h3 class="info-detalle-titulo">Horarios de atención</h3>
+                        <div class="info-detalle-descripcion">
+                            <p>Lunes - Sábado: 8 am - 9 pm</p>
+                            <p>Domingos: 8 am - 1 pm</p>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+            <div id="contenedor-form-contacto">
+                <h2 class="form-titulo">Envíanos tus datos</h2>
+                <form id="form-contacto" action="">
+                    <div class="contenedor-nombres-apellidos">
+                        <div class="contenedor-nombres contenedor-datos">
+                            <label for="nombres">Nombres</label>
+                            <input type="text" id="nombres" placeholder="Ingresar nombres*" required>
+                        </div>
+                        <div class="contenedor-apellidos contenedor-datos">
+                            <label for="apellidos">Apellidos</label>
+                            <input type="text" id="apellidos" placeholder="Ingresar apellidos*" required>
+                        </div>
+                    </div>
+                    <div class="contenedor-email contenedor-datos">
+                        <label for="email">Correo electrónico</label>
+                        <input type="email" id="email" placeholder="ejemplo@dominio.com*" required>
+                    </div>
+                    <div class="contenedor-telefono contenedor-datos">
+                        <label for="telefono">Teléfono</label>
+                        <input type="tel" id="telefono" placeholder="+51 999999999">
+                    </div>
+                    <div class="contenedor-mensaje contenedor-datos">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea name="mensaje" id="mensaje" placeholder="Deja tu mensaje..."></textarea>
+                    </div>
+                    <div class="contenedor-boton">
+                        <input type="submit" value="Enviar mensaje" id="btn-enviar">
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p class="texto-footer">© 2025 - VisuAll</p>
+    </footer>
+</body>
+
+</html>
